@@ -1,0 +1,87 @@
+.banner{
+	background: #d8e2e5;
+  background-image: url(../../images/main_bg_img_heder.png);
+	background-repeat: no-repeat;
+	background-position: center;
+  height: 585px;
+	
+}
+
+.ban h1 {
+  margin-left: -30px;
+	font-size: 32px;
+	line-height: 36px;
+	text-transform: uppercase;
+	color: #1b7fd0;
+	font-weight: 700;
+	font-family: 'Roboto';
+	text-align: center;
+	width: 570px;
+	height: 65px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--color_btn_send_message_hover);
+	filter: drop-shadow(2px 3.464px 3.5px #95aeb6);
+}
+
+.ban h1::before{
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 35px solid var(--color_btn_send_message_hover); 
+	border-right: 35px solid transparent;	
+	position: relative;
+	top: 49px;
+	right: 28.8px;
+}
+
+.ban img{
+  margin-top: 30px;
+}
+
+.ban h3 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.ban ul {
+	width: 512px;
+	height: 158px;
+	font-size: 18px;
+	line-height: 33px;
+	color: #000000;
+	font-family: 'Arial Narrow';
+	margin-bottom: 40px;
+}
+
+.ban ul li::marker{
+	color: var(--color_main_1);
+	font-size: 30px;
+}
+
+.btn1 a {
+	width: 235px;
+	height: 35px;
+	display: block;
+	border: 1px solid #1b7fd0;
+	text-align: center;
+	font-size: 18px;
+	color: #1b7fd0;
+	font-weight: 400;
+	font-family: 'Roboto';
+	text-align: center;
+  text-decoration: none;
+  line-height: 35px;
+}
+
+.btn1{
+  margin-left: 40px;
+  width: 500px;
+  height: 85px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
