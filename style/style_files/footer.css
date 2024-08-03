@@ -1,0 +1,153 @@
+.section-5 {
+	height: 72px;
+	background: #caddea;
+}
+
+.box-footter-Card {
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-Card {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	height: 72px;
+}
+
+.box-Card a {
+	width: 72px;
+	height: 45px;
+	margin-right: 15px;
+}
+
+.box-Messeng {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.messeng {
+	width: 35px;
+	height: 35px;
+	margin: 0 15px;
+}
+
+.faceboock {
+	background-image: url(../../images/Facebook.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.faceboock:hover {
+	background-image: url(../../images/Facebook2.svg);
+}
+
+.tviter {
+	background-image: url(../../images/Twiter.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.tviter:hover {
+	background-image: url(../../images/Twiter2.svg);
+}
+
+.pinteres {
+	background-image: url(../../images/Pinterest.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-right: 150px;
+}
+.pinteres:hover {
+	background-image: url(../../images/Pinterest2.svg);
+}
+
+.section-6 {
+	height: 385px;
+	background: #013056;
+	background-image: url(../../images/how_it_works_bg.png);
+}
+
+.footer-a {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 35px;
+}
+
+.box-footer-a {
+	width: 175px;
+}
+
+.box-footer-a a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #caddea;
+	font-family: 'Arial Narrow';
+	text-align: left;
+}
+
+.box-footer-a a:hover {
+	color: #0b7fd0;
+}
+
+.plus {
+	width: 100%;
+	border-bottom: 2px solid #caddea;
+	position: relative;
+	margin: 38px 0 38px;
+}
+
+.coloPlus {
+	width: 35px;
+	height: 35px;
+	background: #caddea;
+	border-radius: 50%;
+	position: absolute;
+	top: -17.5px;
+	left: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.coloPlus h1 {
+	color: #164870;
+	font-size: 40px;
+}
+
+.navFooter p {
+	font-size: 16px;
+	color: #caddea;
+	font-family: 'Arial Narrow';
+	text-align: center;
+  margin: 20px 0;
+}
+
+.navFooter ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navFooter ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 500;
+	font-family: 'Roboto_Regular';
+	text-align: center;
+	font-size: 16px;
+	padding: 0 21px;
+	margin-left: -35px;
+}
+
+.liFooter::after {
+	content: '';
+	border: 1px solid #fff;
+}
+
+.navFooter ul li a:hover {
+	color: #0b7fd0;
+}
