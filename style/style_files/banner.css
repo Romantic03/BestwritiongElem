@@ -1,20 +1,20 @@
-.banner{
+.banner {
 	background: #d8e2e5;
-  background-image: url(../../images/main_bg_img_heder.png);
+	background-image: url(../../images/main_bg_img_heder.png);
 	background-repeat: no-repeat;
 	background-position: center;
-  height: 585px;
-	
+	height: 600px;
 }
 
 .ban h1 {
-  margin-left: -30px;
+	margin-left: -15px;
+	margin-top: 10px;
 	font-size: 32px;
 	line-height: 36px;
 	text-transform: uppercase;
 	color: #1b7fd0;
 	font-weight: 700;
-	font-family: 'Roboto';
+	font-family: 'Roboto_Regular';
 	text-align: center;
 	width: 570px;
 	height: 65px;
@@ -25,29 +25,116 @@
 	filter: drop-shadow(2px 3.464px 3.5px #95aeb6);
 }
 
-.ban h1::before{
+.banner-1 {
+	margin-top: 10px;
+	font-size: 32px;
+	line-height: 36px;
+	text-transform: uppercase;
+	color: #1b7fd0;
+	font-weight: 700;
+	font-family: 'Roboto_Regular';
+	text-align: center;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	background: var(--color_btn_send_message_hover);
+	filter: drop-shadow(2px 3.464px 3.5px #95aeb6);
+}
+
+.banner-1::before {
 	content: '';
 	display: inline-block;
 	width: 0;
 	height: 0;
-	border-top: 35px solid var(--color_btn_send_message_hover); 
-	border-right: 35px solid transparent;	
-	position: relative;
-	top: 49px;
-	right: 28.8px;
+	border-top: 35px solid var(--color_btn_send_message_hover);
+	border-right: 35px solid transparent;
+	position: absolute;
+	top: 70px;
+	left: 0;
 }
 
-.ban img{
-  margin-top: 30px;
+.ban h1::before {
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 35px solid var(--color_btn_send_message_hover);
+	border-right: 35px solid transparent;
+	position: relative;
+	top: 49px;
+	right: 52.8px;
+}
+
+.ban1-1 {
+	font-size: 32px;
+	line-height: 36px;
+	text-transform: uppercase;
+	color: #1b7fd0;
+	font-weight: 700;
+	font-family: 'Roboto_Regular';
+	text-align: center;
+	display: flex;
+	position: relative;
+	top: 50px;
+	justify-content: center;
+	align-items: center;
+	background: var(--color_btn_send_message_hover);
+	filter: drop-shadow(2px 3.464px 3.5px #95aeb6);
+}
+
+.ban1-1::before {
+	content: '';
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 35px solid var(--color_btn_send_message_hover);
+	border-right: 35px solid transparent;
+	position: absolute;
+	top: 50px;
+	left: 0;
+}
+
+.color15 {
+	font-size: 33px;
+	letter-spacing: -3px;
+	text-transform: uppercase;
+	color: #dd0000;
+	font-weight: 700;
+	font-family: 'Roboto_Regular';
+	text-align: left;
+}
+
+.off {
+	font-size: 26px;
+	text-transform: uppercase;
+	color: #dd0000;
+	font-weight: 400;
+	font-family: 'Roboto_Regular';
+	text-align: left;
+}
+
+.ban1-1 h4 {
+	margin-left: 5px;
+	font-size: 18px;
+	line-height: 14px;
+	text-transform: uppercase;
+	color: #075da2;
+	font-weight: 400;
+	font-family: 'Roboto_Regular';
+}
+
+.ban img {
+	margin-top: 30px;
 }
 
 .ban h3 {
-  margin-left: 40px;
-  margin-top: 20px;
+	margin-left: 40px;
+	margin-top: 20px;
+	color: black;
 }
 
 .ban ul {
-	width: 512px;
 	height: 158px;
 	font-size: 18px;
 	line-height: 33px;
@@ -56,7 +143,7 @@
 	margin-bottom: 40px;
 }
 
-.ban ul li::marker{
+.ban ul li::marker {
 	color: var(--color_main_1);
 	font-size: 30px;
 }
@@ -72,16 +159,47 @@
 	font-weight: 400;
 	font-family: 'Roboto';
 	text-align: center;
-  text-decoration: none;
-  line-height: 35px;
+	text-decoration: none;
+	line-height: 35px;
 }
 
-.btn1{
-  margin-left: 40px;
-  width: 500px;
-  height: 85px;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: space-between;
+.btn1 {
+	margin-left: 40px;
+	width: 500px;
+	height: 85px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+	.ban h3 {
+		font-size: 18px;
+	}
+	.ban ul {
+		font-size: 16px;
+		line-height: 33px;
+		color: #000000;
+		font-family: 'Arial Narrow';
+		margin-bottom: 40px;
+	}
+	.banner {
+		background: white;
+		height: 700px;
+	}
+	.btn1 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: center;
+		margin: 80px 0 0 0;
+	}
+
+	.btn1 a{
+		margin-bottom: 20px;
+	}
 }

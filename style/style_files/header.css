@@ -76,4 +76,10 @@ header .live_chat:hover::after {
 	background-image: url(../../images/Chat2.svg);
 }
 
-
+@media (max-width:576px) {
+	.rectangle{
+		display: flex;
+		justify-content: end;
+		align-items: center;
+	}
+}
